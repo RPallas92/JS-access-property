@@ -9,7 +9,7 @@ Clone the repository and execute:
 
 **Tests**:
 To run the tests execute:
-`npm install`
+`npm test`
 
 **Example**
 
