@@ -1,0 +1,23 @@
+{
+    "name": "js-access-property",
+    "version": "1.0.0",
+    "description": "Access to a object's property safe",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -u bdd -R spec -t 500 --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RPallas92/JS-access-property.git"
+    },
+    "author": "Ricardo Pallas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RPallas92/JS-access-property/issues"
+    },
+    "homepage": "https://github.com/RPallas92/JS-access-property#readme",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.1.0"
+    }
+}
