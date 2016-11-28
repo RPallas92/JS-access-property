@@ -18,7 +18,10 @@ To run the tests execute:
             a: {
                 b: {
                     c: {
-                        d: true
+                        d: true,
+                        e: [
+                            {message: "I'm inside an array!"}
+                        ]
                     }
                 }
             }
@@ -48,6 +51,11 @@ getIf(testObject, 'a.b.c.d.e.f', nullObject);
 
 getIf(testObject, 'a.b.c.d', nullObject);
 // true
+
+Accesing arrays:
+
+getIf(testObject, 'a.b.c.e[0].message', nullObject);
+// I'm inside an array!
 
 ```
 See test/getif-spec.js fore more info
