@@ -51,8 +51,12 @@ getIf(testObject, 'a.b.c.d.e.f', nullObject);
 
 getIf(testObject, 'a.b.c.d', nullObject);
 // true
+```
 
-Accesing arrays:
+
+***Accessing arrays***:
+
+```
 
 getIf(testObject, 'a.b.c.e[0].message', nullObject);
 // I'm inside an array!
